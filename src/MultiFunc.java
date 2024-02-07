@@ -9,8 +9,7 @@ public class MultiFunc {
         System.out.print("Enter number: ");
         int a=sc.nextInt();
         MultiFunc obj=new MultiFunc();
-        boolean c=obj.prime(a);
-        System.out.println(c);
+        System.out.println(obj.computePi(a));
         /*for (int i = 0; i < a; i++) {
             System.out.println(fib(i));     //for fibonacci series
         }*/
@@ -46,6 +45,7 @@ public class MultiFunc {
         return 4*sum;
     }
     public int fib(int n) {
+
         if(n == 0) return 0;
         if(n==1||n==2) return 1;
 
@@ -64,7 +64,7 @@ public class MultiFunc {
         for (int i = 1; i < b; i++) {
             if(b%i==0) sum2+=i;
         }
-        System.out.println((a==sum2 && b==sum1)?"Amicable":"Not Amicable");
+        System.out.println((a==sum2 && b==sum1)?"Amicable":"Non Amicable");
     }
     public void armstrong(int n){
         int sum=0,count=0,rem=0,temp=n,temp2=n;
@@ -77,7 +77,7 @@ public class MultiFunc {
             sum+= (int) Math.pow(rem,count);
             temp/=10;
         }
-        System.out.println((temp2==sum)?"Armstrong number":"Not Armstrong number");
+        System.out.println((temp2==sum)?"Armstrong number":"Non Armstrong number");
     }
     public void capricorn(int n){
         int sq=n*n;
@@ -109,7 +109,6 @@ public class MultiFunc {
                 if(i==n){
                     isprime=true;
                 }else{
-                    isprime=false;
                     break;
                 }
             }
@@ -131,7 +130,7 @@ public class MultiFunc {
             n+=rem*pow;
             x=prime(n);
         }
-        System.out.println((x)?"Circular prime":"Not Circular prime");
+        System.out.println(x?"Circular prime":"Not Circular prime");
     }
     public void happyNum(int n){
         if(n==1){
@@ -152,12 +151,12 @@ public class MultiFunc {
     }
     public void automorphicNum(int n){
         int sq=n*n;
-        String sps=Integer.toString(sq);
-        String ns=Integer.toString(n);
-
-        Pattern pattern=Pattern.compile(ns);
-        Matcher matcher=pattern.matcher(sps);
-        System.out.println((matcher.find())?"Automorphic number":"Not Automorphic number");
+        int temp=n,count=0;
+        while(temp>0){
+            temp/=10;
+            count++;
+        }
+        System.out.println((sq%Math.pow(10,count)==n)?"Automorphic":"Not Automorphic");
     }
     public void disariumNum(int n) {
         int sum=0,count=0,rem=0,temp=n,temp2=n;
@@ -188,23 +187,26 @@ public class MultiFunc {
             sum+=rem;
             n/=10;
         }
-        happyNum(sum);
+        magicNum(sum);
     }
-    public void magic2(int n){
-        int count=0;
+    public void perfectNum(int n){
+        int res=0;
+        for (int i = 1; i < n; i++) {
+            if(n%i==0)  res+=i;
+        }
+        System.out.println((res==n)?"Perfect Number":"Not Perfect Number");
+    }
+    public static int fact(int n){
+        return (n==0||n==1)? 1:n*fact(n-1);
+    }
+    public void specialNum(int n){
         int temp=n;
-        int temp2=n;
-
+        int sum=0;
         while(temp!=0){
-            temp/=10;   //counting digits
-            count++;
+            int res=temp%10;
+            temp/=10;
+            sum+=fact(res);
         }
-        int rev=(int) (n%Math.pow(10,count/2));
-        n/=n%Math.pow(10,count/2);
-        if(n*rev==temp2){
-            System.out.println("Magic number");
-        }else{
-            System.out.println("Nope");
-        }
+        System.out.println((sum==n)?"Special Number":"Not Special Number");
     }
 }
