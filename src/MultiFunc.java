@@ -14,6 +14,19 @@ public class MultiFunc {
             System.out.println(fib(i));     //for fibonacci series
         }*/
     }
+    public static int[] Sort(int[] ar1){
+        int temp=0;
+        for (int i = 0; i < ar1.length; i++) {
+            for (int j = i+1; j < ar1.length; j++) {
+                if(ar1[i]>ar1[j]){
+                    temp = ar1[i];
+                    ar1[i]=ar1[j];
+                    ar1[j]=temp;
+                }
+            }
+        }
+        return ar1;
+    }
     public void decToBin(int a){
         int i=1;
         int bin=0;
