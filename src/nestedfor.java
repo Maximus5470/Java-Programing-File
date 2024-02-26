@@ -56,7 +56,7 @@ public class nestedfor {
     public static void uprightTriangle(int size) {
         int max_width = (2 * size) + 1, offset = max_width / 2, width = 1;
         for (int i = 0; i < size; i++) {
-            for (int j = 0; j < max_width; j++) {
+            for (int j = 1; j < max_width; j++) {
                 if (j < offset) System.out.print("  ");
                 else if (j < width + offset) System.out.print("# ");
             }
@@ -69,7 +69,7 @@ public class nestedfor {
     public static void upsideDownTriangle(int size) {
         int max_width = (2 * size) + 1, offset = 1, width = max_width - 2;
         for (int i = 0; i < size; i++) {
-            for (int j = 0; j < max_width; j++) {
+            for (int j = 1; j < max_width; j++) {
                 if (j < offset) System.out.print("  ");
                 else if (j < width + offset) System.out.print("# ");
             }
