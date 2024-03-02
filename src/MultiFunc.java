@@ -1,4 +1,5 @@
 import java.lang.Math;
+import java.util.Arrays;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
@@ -15,7 +16,7 @@ public class MultiFunc {
         }*/
     }
 
-    public int[] InsertionSort(int[] ar1) {
+    public int[] insertionSort(int[] ar1) {
         for (int i = 1; i < ar1.length; i++) {
             int current = ar1[i];
             int j = i - 1;
@@ -28,7 +29,7 @@ public class MultiFunc {
         return ar1;
     }
 
-    public int[] SelectionSort(int[] ar1) {
+    public int[] selectionSort(int[] ar1) {
         for (int i = 0; i < ar1.length - 1; i++) {
             int smallest = i;
             for (int j = i + 1; j < ar1.length; j++) {
@@ -41,7 +42,7 @@ public class MultiFunc {
         return ar1;
     }
 
-    public int[] BubbleSort(int[] ar1) {
+    public int[] bubbleSort(int[] ar1) {
         for (int i = 0; i < ar1.length - 1; i++) {
             for (int j = 0; j < ar1.length - i - 1; j++) {
                 if (ar1[j] > ar1[j + 1]) {
@@ -52,6 +53,84 @@ public class MultiFunc {
             }
         }
         return ar1;
+    }
+
+    public void wordCamelCase(){
+        Scanner sc = new Scanner(System.in);
+        String input = sc.nextLine();
+        int count=1;
+        for (int i = 0; i < input.length(); i++) {
+            if(input.substring(i, i + 1).equals(input.substring(i, i + 1).toUpperCase())) count++;
+        }
+        System.out.println(count);
+    }
+
+    public void arrayLeftShift(){
+        Scanner sc = new Scanner(System.in);
+        int size = sc.nextInt();
+        int[] arr=new int[size];
+        int count=sc.nextInt();
+        int i=0;
+
+        for (int j = 0; j < size; j++) {
+            arr[j]=sc.nextInt();
+        }
+        while (i!=count) {
+            int first = arr[0];
+            for (int j = 1; j < arr.length; j++) {
+                arr[j-1]=arr[j];
+            }
+            arr[arr.length-1]=first;
+            i++;
+        }
+        System.out.println(Arrays.toString(arr));
+    }
+
+    public void reduceString(){
+        Scanner sc = new Scanner(System.in);
+        StringBuilder input = new StringBuilder(sc.nextLine());
+        while (true) {
+            int prevsize = input.length();
+            for (int i = 0; i < input.length() - 1; i++) {
+                if (input.charAt(i) == input.charAt(i + 1)) {
+                    input.replace(i, i + 2, "");
+                    i--;
+                }
+            }
+            if (input.length() == prevsize || input.isEmpty()) break;
+            else prevsize = input.length();
+        }
+        System.out.println(input.isEmpty() ? "Empty String" : input);
+    }
+    public static void moveChar(char x, String input,int index, int count, String res){
+        if(index==input.length()){
+            for (int i = 0; i < count; i++) {
+                res+=x;
+            }
+            System.out.println(res);
+            return;
+        }
+        if(input.charAt(index)==x){
+            count++;
+            moveChar(x,input,index+1,count,res);
+        }else{
+            res+=input.charAt(index);
+            moveChar(x,input,index+1,count,res);
+        }
+    }
+    public void pangramCheck(){
+        Scanner sc = new Scanner(System.in);
+        char[] alphabet={'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z',' '};
+        String input = sc.nextLine().toLowerCase();
+        input=input.replaceAll("(.)(?=.*\\1)","");
+        System.out.println(input);
+        int count=0;
+        for (int i = 0; i < input.length(); i++) {
+            for (int j = 0; j < alphabet.length; j++) {
+                if(input.charAt(i)==alphabet[j]) count++;
+            }
+        }
+        System.out.println(count==27?"pangram":"not pangram");
     }
 
     public void decToBin(int a) {
