@@ -60,7 +60,7 @@ public class TicTacToe {
                     break;
                 }
             }
-            if (i == 3) {
+            if (i == 4) {
                 player1.play();
                 if (checkWin()) {
                     System.out.println("Player 1 wins");
@@ -82,7 +82,7 @@ public class TicTacToe {
                     break;
                 }
             }
-            if (i == 3) {
+            if (i == 4) {
                 player2.play();
                 if (checkWin()) {
                     System.out.println("Player 2 wins");
