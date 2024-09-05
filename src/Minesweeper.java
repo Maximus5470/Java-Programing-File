@@ -8,17 +8,15 @@ public class Minesweeper {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the size of the board: ");
-        int size = sc.nextInt();
-        System.out.print("Enter the number of mines: ");
-        int mines = sc.nextInt();
+        int size = 5;
+        int mines = size-1;
         BoardHidden = new String[size][size];
         BoardVisible = new String[size][size];
 
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < size; j++) {
                 BoardHidden[i][j] = " ";
-                BoardVisible[i][j] = "*";
+                BoardVisible[i][j] = "□";
             }
         }
         Random rand = new Random();
@@ -27,8 +25,30 @@ public class Minesweeper {
             int y = rand.nextInt(size);
             BoardHidden[x][y] = "B";
         }
-        printBoardHidden();
+        System.out.println("Game Started\n");
         printBoardVisible();
+        while (true) {
+            System.out.print("Enter your move (x y): ");
+            int x = sc.nextInt();
+            int y = sc.nextInt();
+            System.out.print("Enter your move (F/S): ");
+            String move = sc.next();
+            if (move.equals("F")) {
+                flag(x, y);
+            } else if (move.equals("S")) {
+                if (BoardHidden[x][y].equals("B")) {
+                    System.out.println("Game Over");
+                    break;
+                } else {
+                    countSurroundingBombs(x, y);
+                }
+            }
+            printBoardVisible();
+            if (flag_count == mines) {
+                System.out.println("You Win");
+                break;
+            }
+        }
     }
 
     public static void printBoardHidden() {

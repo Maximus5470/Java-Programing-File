@@ -41,4 +41,8 @@ public class DSex2 {
         }
         return mid;
     }
+    // interpolation search normal code
+     public static int InterpolationSearch(int[] arr, int key, int left, int right) {
+        return 0;
+     }
 }
