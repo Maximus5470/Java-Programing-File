@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class OctalToDec {
     public static void main(String[] args) {
-        hexToDec();
+        octalToDec();
     }
 
     public static void octalToDec() {
@@ -15,10 +15,5 @@ public class OctalToDec {
             octal /= 10;
         }
         System.out.println(dec);
-    }
-
-    public static void hexToDec() {
-        Scanner sc = new Scanner(System.in);
-        String hex = sc.nextLine();
     }
 }

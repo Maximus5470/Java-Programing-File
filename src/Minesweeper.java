@@ -9,7 +9,7 @@ public class Minesweeper {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int size = 5;
-        int mines = size-1;
+        int mines = size - 1;
         BoardHidden = new String[size][size];
         BoardVisible = new String[size][size];
 
@@ -78,6 +78,7 @@ public class Minesweeper {
             flag_count--;
         }
     }
+
     public static void countSurroundingBombs(int x, int y) {
         int count = 0;
         if (x > 0 && y > 0 && BoardHidden[x - 1][y - 1].equals("B")) {

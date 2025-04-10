@@ -5,8 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="210d7f7f-865a-48dc-86b8-0958898dfbbb" name="Changes" comment="amends">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSex3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSex4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSex5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSex6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSex8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DSex9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/DSex1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test1/DSex1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/DSex2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test1/DSex2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/LL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test1/LL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Minesweeper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test1/Minesweeper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/MultiFunc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test1/MultiFunc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/OctalToDec.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test1/OctalToDec.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DSex1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSex1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DSex2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSex2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Minesweeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Minesweeper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MultiFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultiFunc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OctalToDec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OctalToDec.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +74,9 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -63,9 +87,16 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.BalancedParenthesisChecker.executor&quot;: &quot;Debug&quot;,
     &quot;Application.BitManipulation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CircularQueue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Conversion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DLinkedList (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Application.DLinkedList.executor&quot;: &quot;Run&quot;,
     &quot;Application.DSex1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DSex2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DSex2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.DSex3.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.DSex4.executor&quot;: &quot;Debug&quot;,
     &quot;Application.Day1.executor&quot;: &quot;Run&quot;,
     &quot;Application.Day10_Inventory_Search.executor&quot;: &quot;Run&quot;,
     &quot;Application.Day2.executor&quot;: &quot;Run&quot;,
@@ -83,11 +114,14 @@
     &quot;Application.Day9_Healthy_Plant.executor&quot;: &quot;Run&quot;,
     &quot;Application.Day9_Healthy_Plant_incomplete.executor&quot;: &quot;Run&quot;,
     &quot;Application.EmailRegex.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FibSearch.executor&quot;: &quot;Run&quot;,
     &quot;Application.FileIO.Abc.executor&quot;: &quot;Run&quot;,
     &quot;Application.JavaTheCova.executor&quot;: &quot;Run&quot;,
     &quot;Application.LL.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinearQueue.executor&quot;: &quot;Run&quot;,
     &quot;Application.LinkedList.executor&quot;: &quot;Run&quot;,
     &quot;Application.LongestCommonPrefix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main$CircularLinkedList.executor&quot;: &quot;Run&quot;,
     &quot;Application.Master.executor&quot;: &quot;Run&quot;,
     &quot;Application.MergeQuest.executor&quot;: &quot;Run&quot;,
     &quot;Application.Minesweeper.executor&quot;: &quot;Run&quot;,
@@ -96,17 +130,34 @@
     &quot;Application.OOPJBattleGrounds.executor&quot;: &quot;Run&quot;,
     &quot;Application.OctalToDec.executor&quot;: &quot;Run&quot;,
     &quot;Application.Oopla.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PancakeSort.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.PhoneBookSorter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PostfixEvaluator.executor&quot;: &quot;Run&quot;,
     &quot;Application.Practice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseStack.executor&quot;: &quot;Run&quot;,
     &quot;Application.SendHelp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Singly_LL.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution_.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution__.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution___.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution____.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Solution_____.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortedMergeDoublyCircularLinkedList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StackExample.executor&quot;: &quot;Run&quot;,
     &quot;Application.StringOperations.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Temp_Practice.executor&quot;: &quot;Run&quot;,
     &quot;Application.Tempasdf.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Three_name.executor&quot;: &quot;Run&quot;,
     &quot;Application.TicTacToe.executor&quot;: &quot;Run&quot;,
     &quot;Application.Trial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TrialChamber.executor&quot;: &quot;Debug&quot;,
     &quot;Application.TrigFunc.executor&quot;: &quot;Run&quot;,
     &quot;Application.nestedfor.executor&quot;: &quot;Run&quot;,
     &quot;Application.tempasdf.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
@@ -135,37 +186,37 @@
       <recent name="FileIO" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Minesweeper">
-    <configuration name="DSex1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSex1" />
+  <component name="RunManager" selected="Application.Temp_Practice">
+    <configuration name="Singly_LL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Singly_LL" />
       <module name="Test1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DSex2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DSex2" />
+    <configuration name="Solution____" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution____" />
       <module name="Test1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Minesweeper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Minesweeper" />
+    <configuration name="SortedMergeDoublyCircularLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortedMergeDoublyCircularLinkedList" />
       <module name="Test1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice" />
+    <configuration name="Temp_Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Temp_Practice" />
       <module name="Test1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicTacToe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TicTacToe" />
+    <configuration name="Three_name" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Three_name" />
       <module name="Test1" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -173,19 +224,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Minesweeper" />
-        <item itemvalue="Application.DSex2" />
-        <item itemvalue="Application.DSex1" />
-        <item itemvalue="Application.TicTacToe" />
-        <item itemvalue="Application.Practice" />
+        <item itemvalue="Application.Temp_Practice" />
+        <item itemvalue="Application.Three_name" />
+        <item itemvalue="Application.Singly_LL" />
+        <item itemvalue="Application.SortedMergeDoublyCircularLinkedList" />
+        <item itemvalue="Application.Solution____" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
       </set>
     </attachedChunks>
   </component>
@@ -487,7 +538,122 @@
       <workItem from="1725109538593" duration="17000" />
       <workItem from="1725523423298" duration="738000" />
       <workItem from="1725525171737" duration="1275000" />
-      <workItem from="1725527327934" duration="760000" />
+      <workItem from="1725527327934" duration="913000" />
+      <workItem from="1725530099629" duration="7000" />
+      <workItem from="1725609360087" duration="42000" />
+      <workItem from="1725612476004" duration="387000" />
+      <workItem from="1725613901122" duration="521000" />
+      <workItem from="1725616303001" duration="224000" />
+      <workItem from="1725628695747" duration="4524000" />
+      <workItem from="1725676768220" duration="1396000" />
+      <workItem from="1725687111920" duration="41000" />
+      <workItem from="1725855757848" duration="638000" />
+      <workItem from="1725857666365" duration="2244000" />
+      <workItem from="1725860011498" duration="746000" />
+      <workItem from="1725861244592" duration="606000" />
+      <workItem from="1725862079718" duration="2870000" />
+      <workItem from="1725886812428" duration="1240000" />
+      <workItem from="1725897339922" duration="237000" />
+      <workItem from="1726034333906" duration="652000" />
+      <workItem from="1726058557834" duration="1459000" />
+      <workItem from="1726061394574" duration="2906000" />
+      <workItem from="1726117561666" duration="3911000" />
+      <workItem from="1726127790330" duration="3421000" />
+      <workItem from="1726134468757" duration="1975000" />
+      <workItem from="1726144676584" duration="2397000" />
+      <workItem from="1726199948470" duration="668000" />
+      <workItem from="1726209376129" duration="471000" />
+      <workItem from="1726479210313" duration="61000" />
+      <workItem from="1726479539596" duration="1666000" />
+      <workItem from="1726719129544" duration="1320000" />
+      <workItem from="1726732592660" duration="975000" />
+      <workItem from="1726733585026" duration="2115000" />
+      <workItem from="1726813697069" duration="1782000" />
+      <workItem from="1726815728594" duration="14000" />
+      <workItem from="1726819405604" duration="291000" />
+      <workItem from="1726928043444" duration="393000" />
+      <workItem from="1727239708745" duration="3883000" />
+      <workItem from="1727244783554" duration="1785000" />
+      <workItem from="1727325204675" duration="3046000" />
+      <workItem from="1727329133503" duration="878000" />
+      <workItem from="1727337365237" duration="4788000" />
+      <workItem from="1727342394224" duration="132000" />
+      <workItem from="1727342553187" duration="1455000" />
+      <workItem from="1727411257525" duration="6248000" />
+      <workItem from="1727591836471" duration="2650000" />
+      <workItem from="1727757477953" duration="913000" />
+      <workItem from="1727762581530" duration="2640000" />
+      <workItem from="1727879411585" duration="143000" />
+      <workItem from="1727929093515" duration="3459000" />
+      <workItem from="1727942188752" duration="8798000" />
+      <workItem from="1728491388074" duration="666000" />
+      <workItem from="1728884387005" duration="3961000" />
+      <workItem from="1728897617588" duration="321000" />
+      <workItem from="1729137337700" duration="1581000" />
+      <workItem from="1729141185709" duration="2946000" />
+      <workItem from="1729153581979" duration="4183000" />
+      <workItem from="1729167563050" duration="6728000" />
+      <workItem from="1729222889640" duration="1189000" />
+      <workItem from="1729226378057" duration="3497000" />
+      <workItem from="1729742129922" duration="294000" />
+      <workItem from="1729777031017" duration="7626000" />
+      <workItem from="1729817840152" duration="740000" />
+      <workItem from="1729845823731" duration="5325000" />
+      <workItem from="1729947834744" duration="87000" />
+      <workItem from="1730089598666" duration="2184000" />
+      <workItem from="1730363271265" duration="53000" />
+      <workItem from="1730552002900" duration="6245000" />
+      <workItem from="1730626465350" duration="10356000" />
+      <workItem from="1730693861486" duration="7769000" />
+      <workItem from="1730702895309" duration="174000" />
+      <workItem from="1730884533673" duration="617000" />
+      <workItem from="1730966209286" duration="4992000" />
+      <workItem from="1731298154783" duration="3475000" />
+      <workItem from="1731570914562" duration="131000" />
+      <workItem from="1731571068429" duration="136000" />
+      <workItem from="1731571392334" duration="2522000" />
+      <workItem from="1732165637923" duration="1000" />
+      <workItem from="1732176092131" duration="2314000" />
+      <workItem from="1732508593953" duration="3728000" />
+      <workItem from="1733392085901" duration="2432000" />
+      <workItem from="1733397970007" duration="1177000" />
+      <workItem from="1733403000868" duration="8345000" />
+      <workItem from="1733887220710" duration="4352000" />
+      <workItem from="1733894008707" duration="331000" />
+      <workItem from="1733894373486" duration="5173000" />
+      <workItem from="1733911620051" duration="12683000" />
+      <workItem from="1733977298842" duration="4618000" />
+      <workItem from="1733982877144" duration="3262000" />
+      <workItem from="1734838067893" duration="39000" />
+      <workItem from="1735014376769" duration="2981000" />
+      <workItem from="1735268396899" duration="8594000" />
+      <workItem from="1735367072109" duration="2133000" />
+      <workItem from="1735968204404" duration="62000" />
+      <workItem from="1736430977048" duration="9168000" />
+      <workItem from="1736925034758" duration="1073000" />
+      <workItem from="1737784337863" duration="182000" />
+      <workItem from="1737784536960" duration="54000" />
+      <workItem from="1737784613150" duration="241000" />
+      <workItem from="1737814727556" duration="6000" />
+      <workItem from="1737898940414" duration="28000" />
+      <workItem from="1737988048918" duration="4000" />
+      <workItem from="1738387120647" duration="12000" />
+      <workItem from="1738569749692" duration="838000" />
+      <workItem from="1739206362101" duration="26000" />
+      <workItem from="1739683019067" duration="11000" />
+      <workItem from="1742975640552" duration="7318000" />
+      <workItem from="1743049938746" duration="62000" />
+      <workItem from="1743053631317" duration="663000" />
+      <workItem from="1743065185389" duration="274000" />
+      <workItem from="1743151272833" duration="79000" />
+      <workItem from="1743479000448" duration="1000" />
+      <workItem from="1743576203378" duration="12000" />
+      <workItem from="1743667804257" duration="3401000" />
+      <workItem from="1743671824548" duration="1717000" />
+      <workItem from="1743944198821" duration="17000" />
+      <workItem from="1744184705905" duration="1854000" />
+      <workItem from="1744186637184" duration="4589000" />
+      <workItem from="1744272012597" duration="1632000" />
     </task>
     <task id="LOCAL-00001" summary="amends">
       <option name="closed" value="true" />
@@ -537,7 +703,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725525753351</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="amends">
+      <option name="closed" value="true" />
+      <created>1725529553654</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725529553654</updated>
+    </task>
+    <task id="LOCAL-00008" summary="amends">
+      <option name="closed" value="true" />
+      <created>1725529596020</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1725529596020</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -565,6 +747,38 @@
           <properties class="java.lang.NumberFormatException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PancakeSort.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/PancakeSort.java</url>
+          <line>27</line>
+          <properties class="PancakeSort" method="pancakeSort">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/PancakeSort.java</url>
+          <line>16</line>
+          <properties class="PancakeSort" method="findMax">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/PancakeSort.java</url>
+          <line>4</line>
+          <properties class="PancakeSort" method="flip">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
