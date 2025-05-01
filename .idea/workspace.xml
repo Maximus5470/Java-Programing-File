@@ -5,29 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="210d7f7f-865a-48dc-86b8-0958898dfbbb" name="Changes" comment="amends">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSex3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSex4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSex5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSex6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSex8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DSex9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Attendance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CNCollision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RoboArena.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/DSex1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test1/DSex1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/DSex2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test1/DSex2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/LL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test1/LL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/Minesweeper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test1/Minesweeper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/MultiFunc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test1/MultiFunc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/OctalToDec.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test1/OctalToDec.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSex1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSex1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DSex2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DSex2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Minesweeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Minesweeper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MultiFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultiFunc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OctalToDec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OctalToDec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test1/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/BankAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test1/BankAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test1/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test1/Library.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Temp_Practice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,8 +74,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.Attendance.executor&quot;: &quot;Run&quot;,
     &quot;Application.BalancedParenthesisChecker.executor&quot;: &quot;Debug&quot;,
     &quot;Application.BitManipulation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CNCollision.executor&quot;: &quot;Run&quot;,
     &quot;Application.CircularQueue.executor&quot;: &quot;Run&quot;,
     &quot;Application.Conversion.executor&quot;: &quot;Run&quot;,
     &quot;Application.DLinkedList (1).executor&quot;: &quot;Debug&quot;,
@@ -135,7 +124,10 @@
     &quot;Application.PostfixEvaluator.executor&quot;: &quot;Run&quot;,
     &quot;Application.Practice.executor&quot;: &quot;Run&quot;,
     &quot;Application.ReverseStack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RoboArena.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ScoreBoardX.executor&quot;: &quot;Run&quot;,
     &quot;Application.SendHelp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Shop.executor&quot;: &quot;Run&quot;,
     &quot;Application.Singly_LL.executor&quot;: &quot;Run&quot;,
     &quot;Application.Solution_.executor&quot;: &quot;Run&quot;,
     &quot;Application.Solution__.executor&quot;: &quot;Run&quot;,
@@ -164,6 +156,7 @@
     &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Dhanone3Site/Dhanone3Site&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -174,7 +167,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.LLMConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -186,37 +179,37 @@
       <recent name="FileIO" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Temp_Practice">
-    <configuration name="Singly_LL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Singly_LL" />
+  <component name="RunManager" selected="Application.CNCollision">
+    <configuration name="Attendance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Attendance" />
       <module name="Test1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution____" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution____" />
+    <configuration name="CNCollision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CNCollision" />
       <module name="Test1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortedMergeDoublyCircularLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortedMergeDoublyCircularLinkedList" />
+    <configuration name="RoboArena" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RoboArena" />
       <module name="Test1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Temp_Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Temp_Practice" />
+    <configuration name="ScoreBoardX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ScoreBoardX" />
       <module name="Test1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Three_name" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Three_name" />
+    <configuration name="Shop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Shop" />
       <module name="Test1" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -224,19 +217,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Temp_Practice" />
-        <item itemvalue="Application.Three_name" />
-        <item itemvalue="Application.Singly_LL" />
-        <item itemvalue="Application.SortedMergeDoublyCircularLinkedList" />
-        <item itemvalue="Application.Solution____" />
+        <item itemvalue="Application.CNCollision" />
+        <item itemvalue="Application.RoboArena" />
+        <item itemvalue="Application.ScoreBoardX" />
+        <item itemvalue="Application.Attendance" />
+        <item itemvalue="Application.Shop" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
       </set>
     </attachedChunks>
   </component>
@@ -653,7 +646,18 @@
       <workItem from="1743944198821" duration="17000" />
       <workItem from="1744184705905" duration="1854000" />
       <workItem from="1744186637184" duration="4589000" />
-      <workItem from="1744272012597" duration="1632000" />
+      <workItem from="1744272012597" duration="3429000" />
+      <workItem from="1744275911040" duration="4373000" />
+      <workItem from="1744280366111" duration="56000" />
+      <workItem from="1744865994372" duration="2000" />
+      <workItem from="1745471483992" duration="4000" />
+      <workItem from="1745480395577" duration="2003000" />
+      <workItem from="1745571198393" duration="1077000" />
+      <workItem from="1745573171799" duration="1945000" />
+      <workItem from="1745759374764" duration="1605000" />
+      <workItem from="1745771916215" duration="1477000" />
+      <workItem from="1745811520303" duration="882000" />
+      <workItem from="1745812953882" duration="167000" />
     </task>
     <task id="LOCAL-00001" summary="amends">
       <option name="closed" value="true" />
@@ -719,7 +723,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725529596020</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="amends">
+      <option name="closed" value="true" />
+      <created>1744274190828</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1744274190828</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
