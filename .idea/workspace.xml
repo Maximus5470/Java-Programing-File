@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="210d7f7f-865a-48dc-86b8-0958898dfbbb" name="Changes" comment="amends">
-      <change afterPath="$PROJECT_DIR$/src/Attendance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CNCollision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RoboArena.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AttendanceSheet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IPLScores.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test1/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/BankAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test1/BankAccount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test1/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test1/Library.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/Temp_Practice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +48,9 @@
     <setting file="file://$PROJECT_DIR$/src/TrigFunc.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/nestedfor.java" root0="SKIP_INSPECTION" />
   </component>
+  <component name="LLMProjectSettings">
+    <option name="turned_on" value="false" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -72,105 +68,114 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Attendance.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BalancedParenthesisChecker.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.BitManipulation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CNCollision.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CircularQueue.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Conversion.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DLinkedList (1).executor&quot;: &quot;Debug&quot;,
-    &quot;Application.DLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DSex1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DSex2.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.DSex3.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.DSex4.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Day1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Day10_Inventory_Search.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Day2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Day20_StarStruck.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Day23_Complex_Median.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Day25_Stocks.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Day2_Incomplete.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Day4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Day5.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Day5_Incomplete.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Day6_Incomplete.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Day6_Polish_Notation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Day7.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Day8_Atom_Man.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Day9_Healthy_Plant.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Day9_Healthy_Plant_incomplete.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EmailRegex.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FibSearch.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FileIO.Abc.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JavaTheCova.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LL.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinearQueue.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestCommonPrefix.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main$CircularLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Master.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MergeQuest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Minesweeper.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MultiFunc.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OOPFuck.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OOPJBattleGrounds.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OctalToDec.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Oopla.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PancakeSort.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.PhoneBookSorter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PostfixEvaluator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Practice.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseStack.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RoboArena.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ScoreBoardX.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SendHelp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Shop.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Singly_LL.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution_.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution__.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution___.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Solution____.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Solution_____.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SortedMergeDoublyCircularLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StackExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringOperations.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Temp_Practice.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Tempasdf.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Three_name.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TicTacToe.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Trial.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TrialChamber.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.TrigFunc.executor&quot;: &quot;Run&quot;,
-    &quot;Application.nestedfor.executor&quot;: &quot;Run&quot;,
-    &quot;Application.tempasdf.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Dhanone3Site/Dhanone3Site&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.LLMConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Attendance.executor": "Run",
+    "Application.AttendanceSheet.executor": "Run",
+    "Application.BalancedParenthesisChecker.executor": "Debug",
+    "Application.BitManipulation.executor": "Run",
+    "Application.CNCollision.executor": "Run",
+    "Application.CircularQueue.executor": "Run",
+    "Application.ConsecutiveOnes.executor": "Run",
+    "Application.Conversion.executor": "Run",
+    "Application.DLinkedList (1).executor": "Debug",
+    "Application.DLinkedList.executor": "Run",
+    "Application.DSex1.executor": "Run",
+    "Application.DSex2.executor": "Debug",
+    "Application.DSex3.executor": "Debug",
+    "Application.DSex4.executor": "Debug",
+    "Application.Day1.executor": "Run",
+    "Application.Day10_Inventory_Search.executor": "Run",
+    "Application.Day2.executor": "Run",
+    "Application.Day20_StarStruck.executor": "Run",
+    "Application.Day23_Complex_Median.executor": "Run",
+    "Application.Day25_Stocks.executor": "Run",
+    "Application.Day2_Incomplete.executor": "Run",
+    "Application.Day4.executor": "Run",
+    "Application.Day5.executor": "Run",
+    "Application.Day5_Incomplete.executor": "Run",
+    "Application.Day6_Incomplete.executor": "Run",
+    "Application.Day6_Polish_Notation.executor": "Run",
+    "Application.Day7.executor": "Run",
+    "Application.Day8_Atom_Man.executor": "Run",
+    "Application.Day9_Healthy_Plant.executor": "Run",
+    "Application.Day9_Healthy_Plant_incomplete.executor": "Run",
+    "Application.EmailRegex.executor": "Run",
+    "Application.FibSearch.executor": "Run",
+    "Application.FileIO.Abc.executor": "Run",
+    "Application.GoldMine.executor": "Run",
+    "Application.JavaTheCova.executor": "Run",
+    "Application.Knapsack.executor": "Run",
+    "Application.LL.executor": "Run",
+    "Application.LinearQueue.executor": "Run",
+    "Application.LinkedList.executor": "Run",
+    "Application.LongestCommonPrefix.executor": "Run",
+    "Application.Main$CircularLinkedList.executor": "Run",
+    "Application.Master.executor": "Run",
+    "Application.MergeQuest.executor": "Run",
+    "Application.Minesweeper.executor": "Run",
+    "Application.MultiFunc.executor": "Run",
+    "Application.NQueens.executor": "Run",
+    "Application.NQueensBranchBound.executor": "Run",
+    "Application.OOPFuck.executor": "Run",
+    "Application.OOPJBattleGrounds.executor": "Run",
+    "Application.OctalToDec.executor": "Run",
+    "Application.Oopla.executor": "Run",
+    "Application.PancakeSort.executor": "Debug",
+    "Application.PhoneBookSorter.executor": "Run",
+    "Application.PostfixEvaluator.executor": "Run",
+    "Application.Practice.executor": "Run",
+    "Application.ReverseStack.executor": "Run",
+    "Application.RoboArena.executor": "Run",
+    "Application.ScoreBoardX.executor": "Run",
+    "Application.SendHelp.executor": "Run",
+    "Application.Shop.executor": "Run",
+    "Application.Singly_LL.executor": "Run",
+    "Application.Solution_.executor": "Run",
+    "Application.Solution__.executor": "Run",
+    "Application.Solution___.executor": "Run",
+    "Application.Solution____.executor": "Debug",
+    "Application.Solution_____.executor": "Run",
+    "Application.SortedMergeDoublyCircularLinkedList.executor": "Run",
+    "Application.StackExample.executor": "Run",
+    "Application.StringOperations.executor": "Run",
+    "Application.SumOfSubsets.executor": "Run",
+    "Application.Temp_Practice.executor": "Run",
+    "Application.Tempasdf.executor": "Run",
+    "Application.Three_name.executor": "Run",
+    "Application.TicTacToe.executor": "Run",
+    "Application.Trial.executor": "Run",
+    "Application.TrialChamber.executor": "Debug",
+    "Application.TrigFunc.executor": "Run",
+    "Application.nestedfor.executor": "Run",
+    "Application.tempasdf.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "full.screen.before.presentation.mode": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Dhanone3Site/Dhanone3Site",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "ml.llm.LLMConfigurable",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\GAUTHAM SHARMA\IdeaProjects\Java Programing File\src\FileIO" />
@@ -179,37 +184,49 @@
       <recent name="FileIO" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CNCollision">
-    <configuration name="Attendance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Attendance" />
+  <component name="RunManager" selected="Application.TreeOfSpace">
+    <configuration name="ConsecutiveOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConsecutiveOnes" />
       <module name="Test1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CNCollision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CNCollision" />
+    <configuration name="GoldMine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GoldMine" />
       <module name="Test1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoboArena" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RoboArena" />
+    <configuration name="NQueensBranchBound" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DAAinternal.NQueensBranchBound" />
       <module name="Test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DAAinternal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScoreBoardX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ScoreBoardX" />
+    <configuration name="SumOfSubsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DAAinternal.SumOfSubsets" />
       <module name="Test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DAAinternal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Shop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Shop" />
+    <configuration name="TreeOfSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TreeOfSpace" />
       <module name="Test1" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -217,19 +234,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CNCollision" />
-        <item itemvalue="Application.RoboArena" />
-        <item itemvalue="Application.ScoreBoardX" />
-        <item itemvalue="Application.Attendance" />
-        <item itemvalue="Application.Shop" />
+        <item itemvalue="Application.TreeOfSpace" />
+        <item itemvalue="Application.GoldMine" />
+        <item itemvalue="Application.ConsecutiveOnes" />
+        <item itemvalue="Application.NQueensBranchBound" />
+        <item itemvalue="Application.SumOfSubsets" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
-        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.27397.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.27397.103" />
       </set>
     </attachedChunks>
   </component>
@@ -658,6 +675,25 @@
       <workItem from="1745771916215" duration="1477000" />
       <workItem from="1745811520303" duration="882000" />
       <workItem from="1745812953882" duration="167000" />
+      <workItem from="1746085803898" duration="5908000" />
+      <workItem from="1746093802558" duration="1106000" />
+      <workItem from="1746175868118" duration="4000" />
+      <workItem from="1748787995194" duration="3573000" />
+      <workItem from="1748822546200" duration="5218000" />
+      <workItem from="1748843247744" duration="2828000" />
+      <workItem from="1748866707202" duration="14304000" />
+      <workItem from="1748923091306" duration="9150000" />
+      <workItem from="1751336630757" duration="1663000" />
+      <workItem from="1751339606284" duration="106000" />
+      <workItem from="1751341797472" duration="580000" />
+      <workItem from="1751459341750" duration="13708000" />
+      <workItem from="1752639565432" duration="5965000" />
+      <workItem from="1752647780222" duration="616000" />
+      <workItem from="1754549046377" duration="13000" />
+      <workItem from="1759733027350" duration="7000" />
+      <workItem from="1765776523216" duration="25000" />
+      <workItem from="1769841405965" duration="255000" />
+      <workItem from="1769946800452" duration="617000" />
     </task>
     <task id="LOCAL-00001" summary="amends">
       <option name="closed" value="true" />
@@ -731,7 +767,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744274190828</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="amends">
+      <option name="closed" value="true" />
+      <created>1746085847063</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1746085847063</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -797,5 +841,13 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
