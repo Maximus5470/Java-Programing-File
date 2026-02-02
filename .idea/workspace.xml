@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="210d7f7f-865a-48dc-86b8-0958898dfbbb" name="Changes" comment="amends">
-      <change afterPath="$PROJECT_DIR$/src/AttendanceSheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IPLScores.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/TreeOfSpace.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test1/TreeOfSpace.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TreeOfSpace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TreeOfSpace.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +39,10 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/Code365/Day4.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/Code365/Day5.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/EmailRegex.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/HextoInt.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/MultiFunc.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/OOPJBattleGrounds.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/TreeofSpace2.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/TrigFunc.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/nestedfor.java" root0="SKIP_INSPECTION" />
   </component>
@@ -144,6 +142,8 @@
     "Application.Tempasdf.executor": "Run",
     "Application.Three_name.executor": "Run",
     "Application.TicTacToe.executor": "Run",
+    "Application.TreeOfSpace.executor": "Run",
+    "Application.TreeofSpace2.executor": "Run",
     "Application.Trial.executor": "Run",
     "Application.TrialChamber.executor": "Debug",
     "Application.TrigFunc.executor": "Run",
@@ -184,7 +184,7 @@
       <recent name="FileIO" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TreeOfSpace">
+  <component name="RunManager" selected="Application.TreeofSpace2">
     <configuration name="ConsecutiveOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ConsecutiveOnes" />
       <module name="Test1" />
@@ -212,19 +212,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfSubsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DAAinternal.SumOfSubsets" />
-      <module name="Test1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DAAinternal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TreeOfSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TreeOfSpace" />
       <module name="Test1" />
@@ -232,13 +219,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TreeofSpace2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TreeofSpace2" />
+      <module name="Test1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TreeofSpace2" />
         <item itemvalue="Application.TreeOfSpace" />
         <item itemvalue="Application.GoldMine" />
         <item itemvalue="Application.ConsecutiveOnes" />
         <item itemvalue="Application.NQueensBranchBound" />
-        <item itemvalue="Application.SumOfSubsets" />
       </list>
     </recent_temporary>
   </component>
@@ -693,7 +687,10 @@
       <workItem from="1759733027350" duration="7000" />
       <workItem from="1765776523216" duration="25000" />
       <workItem from="1769841405965" duration="255000" />
-      <workItem from="1769946800452" duration="617000" />
+      <workItem from="1769946800452" duration="1021000" />
+      <workItem from="1769947916402" duration="772000" />
+      <workItem from="1770026809116" duration="989000" />
+      <workItem from="1770035994163" duration="11175000" />
     </task>
     <task id="LOCAL-00001" summary="amends">
       <option name="closed" value="true" />
@@ -775,7 +772,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746085847063</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="amends">
+      <option name="closed" value="true" />
+      <created>1769947588848</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1769947588848</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
